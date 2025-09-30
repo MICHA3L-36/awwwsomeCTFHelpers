@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
-# Usage: ./anonchecker.sh 192.168.0.0/24
-#
-# Scans the provided CIDR for ports 21 and 445 open, then checks:
-#  - anonymous FTP (attempts anonymous authentication via curl)
-#  - SMB null auth (smbclient -L -N)
-
-# DEPENDENCIES: nmap, curl, smbclient
-
 
 set -euo pipefail
 
