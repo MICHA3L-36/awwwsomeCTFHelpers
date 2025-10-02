@@ -1,8 +1,8 @@
 <h2>Description:</h2>
 anonchecker.sh is a minimal bash script that: <br>
 - scans a CIDR for hosts with FTP (21) or SMB (445) open <br>
-- checks anonymous FTP (attempts anonymous LIST using `curl`) <br>
-- checks SMB null authentication (attempts `smbclient -L //IP -N`).<br>
+- checks anonymous FTP (attempts anonymous LIST using curl) <br>
+- checks SMB null authentication (attempts smbclient -L //IP -N).<br>
 
 <h2>Instructions: </h2><br>
 Copy this file, save it as anonchecker.sh <br>
